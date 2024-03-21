@@ -421,6 +421,7 @@ type (
 		Target []string                       `json:"target,omitempty" hujson:"Target,omitempty"`
 		Attr   []string                       `json:"attr,omitempty" hujson:"Attr,omitempty"`
 		App    map[string][]*NodeAttrGrantApp `json:"app,omitempty" hujson:"App,omitempty"`
+		IPPool []string                       `json:"ipPool,omitempty" hujson:"IPPool,omitempty"`
 	}
 
 	NodeAttrGrantApp struct {
